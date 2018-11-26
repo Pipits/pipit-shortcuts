@@ -1,0 +1,29 @@
+<perch:before>
+<div data-app="content" class="widget">
+    <div class="dash-content">
+        <header>
+            <h2>Shortcuts</h2>
+        </header>
+        <div class="body">
+</perch:before>
+        <h3><perch:content id="heading"></h3>
+
+        <perch:repeater id="links">
+            <perch:before>
+                <ul class="dash-list">
+            </perch:before>
+                <li>
+                    <a href="<perch:content id="link">">
+                        <perch:content id="title">
+                    </a>
+                </li>
+            <perch:after>
+                </ul>
+            </perch:after>
+        </perch:repeater>
+
+<perch:after>       
+        </div>
+    </div>
+</div>
+</perch:after>
