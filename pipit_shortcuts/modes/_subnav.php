@@ -3,5 +3,5 @@
 		[
 			'page' => ['pipit_shortcuts',], 
 			'label' => 'Register Menus'
-        ],
+        	],
 	], $CurrentUser);

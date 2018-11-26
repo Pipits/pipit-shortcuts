@@ -1,6 +1,6 @@
 <?php
 	if ($CurrentUser->logged_in() && $CurrentUser->has_priv('pipit_shortcuts')) {
-		$this->register_app('pipit_shortcuts', 'Pipit Shortcuts', 99, 'Shortcuts Dashboard Widget', '0.1');
+		$this->register_app('pipit_shortcuts', 'Shortcuts', 99, 'Shortcuts Dashboard Widget', '0.1');
         $this->require_version('pipit_shortcuts', '3.0');
 
 		spl_autoload_register(function($class_name) {
